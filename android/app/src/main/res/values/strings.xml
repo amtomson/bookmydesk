@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BookMyDesk</string>
+    <string name="title_activity_main">BookMyDesk</string>
+    <string name="package_name">com.book.mydesk</string>
+    <string name="custom_url_scheme">com.book.mydesk</string>
+</resources>
