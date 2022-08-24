@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { BookDeskSuccessComponent } from './pages/book-desk-success/book-desk-success.component';
+import { BookDeskComponent } from './pages/book-desk/book-desk.component';
+import { DeskSelectComponent } from './pages/desk-select/desk-select.component';
+import { GreetingComponent } from './pages/greeting/greeting.component';
 import { LoginComponent } from './pages/login/login.component';
+import { OtherServicesComponent } from './pages/other-services/other-services.component';
 
 const routes: Routes = [
   {
@@ -14,8 +18,24 @@ const routes: Routes = [
     component: LoginComponent,
   },
   {
-    path: 'dashboard',
-    component: DashboardComponent,
+    path: 'greeting',
+    component: GreetingComponent,
+  },
+  {
+    path: 'book-desk',
+    component: BookDeskComponent,
+  },
+  {
+    path: 'desk-select',
+    component: DeskSelectComponent,
+  },
+  {
+    path: 'book-desk-success',
+    component: BookDeskSuccessComponent,
+  },
+  {
+    path: 'other-services',
+    component: OtherServicesComponent,
   },
 ];
 

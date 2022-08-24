@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">BookMyDesk</string>
     <string name="title_activity_main">BookMyDesk</string>
-    <string name="package_name">com.book.mydesk</string>
-    <string name="custom_url_scheme">com.book.mydesk</string>
+    <string name="package_name">com.book.desk</string>
+    <string name="custom_url_scheme">com.book.desk</string>
 </resources>

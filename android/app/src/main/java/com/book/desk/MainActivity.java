@@ -1,4 +1,4 @@
-package com.book.mydesk;
+package com.book.desk;
 
 import com.getcapacitor.BridgeActivity;
 
